@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+<script languaje="javascript">
+
+//Estructura if, for, while, do while
+    
+//if
+    var num1, num2;
+    num1=10 ;
+    num2=10 ;
+    
+    if(num1>=num2) {//si valor1 mayor igual que valor 2 realiza lo siguiente
+        document.write("Estructura IF ...."+"<br>");
+        document.write("el valor uno es mas grande que el valor 2"+"<br><br>");
+    }
+    else//si no se cumple la condición entonces
+        document.write("el valor dos es mas grande que el valor1"+"<br>");
+    
+//bucles for
+    var contador=0 ; //mediante un contador, se ejecuta un proceso que se repite X veces
+    document.write("Bucle FOR con contador.... Valor del contador es = "+contador+"<br>");
+    for(contador==0;contador<=10;contador++){
+        document.write("esta es la vuelta numero "+contador+"<br>");
+    }
+    document.write("<br> Bucle FOR por repeticion de linea ...."+"<br>");
+    for(add=1;add<=4;add++) //Ejemplo de repeticion de linea
+    {
+        document.write("bienvenido a java"+"<br>")
+    }
+
+//bucles while
+    var contador=0;
+    document.write("<br>Bucle WHILE con contador.... Valor del contador es = "+contador+"<br>");
+    while (contador<10){
+        document.write("Este es el bucle while, que se repite hasta 10 veces"+"<br>");
+        contador++;
+    }
+    
+//bucles do while
+    var contador=0;
+    document.write("<br>Bucle DO WHILE con contador.... Valor del contador es = "+contador+"<br>");
+    do{
+        document.write("Bucle do while, otra manera de repetir lineas"+"<br>")
+        contador++;
+    }
+    while(contador<10);
+    
+</script>
+    
+</body>
+</html>

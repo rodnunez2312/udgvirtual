@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> ejemplo de evento onsubmit </title>
+        
+        <script languaje="javascript">
+            
+            function verificardato()
+            {
+                var valor=document.miformulario.numero.value;
+                
+                if(valor>0 && valor<100)
+                {
+                    return(true);
+                }
+                else{
+                    alert("atencion el valor introducido no es correcto");
+                    return(false);
+                } }
+        </script>
+        
+    </head>
+    <body>
+        
+        <form name="miformulario" method="post" onsubmit="verificardato()" action="mailto:correo@server.com">
+            <p>introduzca un numero comprendido entre 1 y 100
+                <input type="text" name="numero"><br>
+                <input type="submit"value="pulsa aqui">
+                
+        </form>
+        
+    </body>
+</html>

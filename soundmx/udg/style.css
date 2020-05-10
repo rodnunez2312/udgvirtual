@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document */
+
+body{
+	background-image:url(IehB7.png);
+	width:100%;
+	float:left;
+}
+
+body contenedor
+{
+	border: solid 2px #666;
+	background-color:#FFF5EE; 
+	color:#003;
+	width:80%;
+	float:left;
+	margin-left:10%;
+	padding:1%;
+	border-radius: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	
+}
+
+cabecera
+{
+	border-bottom:solid 3px #333;
+	width:90%;
+	float:left;
+	text-shadow:#666;
+	margin-left:5%;
+	padding-bottom:1%;
+}
+
+T2
+{
+	color:#02020E;
+	font-size:30px;
+	text-shadow: 2px 2px 2px #666;
+}
+
+T3{
+	text-align:center;
+	color:#030;
+	font-size:24px;
+	text-shadow: 2px 2px 2px #666;
+}
+
+data{
+	text-align:center;
+	margin-top: 2%;
+	width:80%;
+	margin-left:5%;
+	float:left;
+}
+
+ADD input{
+	border-radius: 10px;
+	border:solid 2px #666;
+	padding:3%;
+	font-size:16px;
+	opacity: 0.7;
+}
+
+ADD input:hover{
+	border-radius: 10px;
+	border:solid 2px #333;
+	padding:3%;
+	font-size:16px;
+	opacity: 1;
+	
+}
+
+s-table table{
+	margin-top:3%;
+	width:60%;
+	float:left;
+	margin-left:20%;
+	border-left:solid 2px #666;
+	border-top: solid 2px #666;
+	padding:2px;
+}
+
+s-table table t4
+{
+	font-size:22px;
+	color:#060;
+}
+
+s-table table td
+{
+	border-bottom: solid 2px #666;
+	border-right:solid 2px #666;
+}
+
+s-table table tr:hover
+{
+	background-color:#CCC;
+}

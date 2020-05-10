@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+    <script src="javascript/funciones.js"></script>
+</head>
+
+    <div id="banner">
+        <h1>The Sound-MX</h1>
+        <h3>Marca promotora de musica Electronica</h3>
+    </div>
+
+<body>
+    
+     <div id="barra_principal">
+		<header>
+			<nav>
+				<a href="index_soundmx.html">Home</a>
+				<a href="Noticias_soundmx.html">Noticias_soundmx</a>
+				<a href="tours.php">Tours_soundmx</a>
+				<a href="Entrevistas_soundmx.html">Entrevistas_soundmx</a>
+                <a href="form_soundmx.html">Contacto_soundmx</a>
+			</nav>
+            
+			<div id="imagen_index">
+				<span>Contacto</span>
+			</div>
+		</header>
+         
+		<div id="contenido">
+            <div id="wrapper">
+                <form name="datos" method="get" onsubmit="return validateform()">
+                    <fieldset>
+                    <div>
+                      Nombre de Usuario:  <input type="text" name="user" id="user" placeholder="Usuario">
+                    </div>
+                    <div>
+                      Direccion (Calle y Numero):  <input type="text" name="dir" id="dir" placeholder="Ingrese su direccion">
+                    </div>
+                    <div>
+                      Codigo Postal (solo digitos):  <input type="number" name="cp" id="cp" placeholder="C.P.">
+                    </div>
+                    <div>
+                      Numero Celular (solo digitos y sin espacios):  <input type="number" name="cel" id="cel" placeholder="Cel.">
+                    </div>
+                    <div>
+                       Correo Electronico: <br> <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div>
+                      Deja aqui tus comentarios (opcional):
+                        <textarea name="mensaje" placeholder="Comentarios"></textarea>
+                    </div>
+                    <div>
+                	    <input type="radio" name="aceptar" id="aceptar" value="acepto-terminos">
+                        
+                            <label for="acepto-terminos">Acepto los términos.</label>
+                    </div>
+                        <input type="submit" name="submit" value="Enviar forma" onclick="confirmacion()">
+                        <input type="button" value="resetar" onclick="avisoreset()">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+		
+         <footer>
+			<h4>Contacto</h4>
+			<span>
+				E-mail:
+                <a href="mailto:prensa@thesoundmx.com"><strong>prensa@thesoundmx.com</strong></a>
+			</span>
+
+			<div>
+				<a href="https://www.facebook.com/SoundMxEnt/" id="facebook">Facebook</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
