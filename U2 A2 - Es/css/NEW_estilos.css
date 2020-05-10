@@ -258,8 +258,8 @@ p {
 }
 .d-flex {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Marcellus SC', serif;
@@ -317,11 +317,26 @@ th {
 
 .nav-tabs {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Marcellus SC', serif;
     font-size: 24px;
     background-color: #ffffff;
+}
+
+.tab-content {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#titulo_acerca {
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.display-4 {
+    margin-top: 20px;
 }
